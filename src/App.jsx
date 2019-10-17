@@ -8,12 +8,8 @@ import 'babel-polyfill';
 class App extends Component {
   render() {
     return (
-      <Router>
-        <main>
-            <h1>Hello World</h1>
-        </main>
-        
-      </Router>
+            <h1>Hello Porfolio</h1>
+
     );
   }
 }

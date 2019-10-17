@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "webpack-dev-server --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "start": "node ./server/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://ConDish.github.io/mywebsite",
+  "homepage": "https://ConDish.github.io/porfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "axios": "^0.18.0",
